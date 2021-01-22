@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap');
+
+header {
+  padding-top: 50px;
+  padding-bottom: 15px;
+}
+
+
+h1 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 35px;
+  margin: 0 auto;
+  width: 1000px;
+}
+
+p {
+  font-family: "Open Sans", sans-serif;
+  width: 600px;
+  font-size: 20px;
+}
+
+a {
+  margin: 0 auto;
+  font-size: 20px;
+  font-family: "Open Sans", sans-serif;
+  text-decoration: none;
+  text-align: center;
+  text-decoration: underline;
+  padding: 8px 5px;
+
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.quote {
+  text-align: center;
+  margin: 0 auto;
+  padding: 50px 0;
+  font-style: italic;
+}
+
+.quote::before {
+  content: attr(data-before);
+  color: #FFC10D;
+}
+
+.quote::after {
+  content: attr(data-after);
+  color: #194F82;
+}
+
+#wpm {
+  margin: 0 auto;
+  font-size: 40px;
+  text-align: center;
+  width: 8em;
+}
+
+#description {
+  margin: 0 auto;
+  font-size: 15px;
+  color: grey;
+  width: 10em;
+  text-align: center;
+}
+
+.flex-heading-container {
+  display: flex;
+  justify-content: space-between;
+  width: 1000px;
+  margin: 0 auto;
+  align-items: center;
+}
+
+
+.testArea {
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  border-radius: 10px;
+  border-width: thick;
+  resize: none;
+}
+
+
+.timer {
+
+    font-family: "Open Sans", sans-serif;
+    text-align: right;
+    font-size: 60px;
+    padding:0;
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 500px;
+  border-radius: 10px;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left:0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+.testAgainContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.responsive {
+  width: 17%;
+  height: auto;
+
+}

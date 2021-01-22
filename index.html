@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Typing Speed</title>
+    <script src="script.js" async></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="keyboard.svg">
+  </head>
+  <header>
+    <h1>Check your typing speed.</h1>
+  </header>
+  <body>
+    <section class="flex-heading-container">
+      <p>Find out your WPM (Words per minute), by typing the quote featured
+        below in the text box as fast you can. The timer will start, once you
+        begin typing.</p>
+      <img src="keyboard.svg" alt="Photo of Keyboard" class="responsive">
+    </section>
+      <section>
+        <p class="quote" data-before="" data-after=""></p>
+      </section>
+    <section class="flex-heading-container">
+      <textarea  placeholder="Type Here..."class="testArea"name="name" rows="8" cols="80"></textarea>
+      <p class="timer">00:00:00</p>
+    </section>
+
+    <div id="myModal" class="modal">
+      <div id="modalContent" class="modal-content">
+        <h1>Results</h1>
+        <p id="wpm"></p>
+        <p id="description">Words Per Minute</p>
+        <p id="resultdes">Your WPM is above average.</p>
+        <p>The average speed is 41.4 words in one minute.</p>
+        <div class="testAgainContainer">
+          <span class="testagain"><a href="index.html">Test Again</a></span>
+        </div>
+
+      </div>
+    </div>
+
+
+  </body>
+</html>
